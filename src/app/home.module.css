@@ -1,0 +1,93 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(233, 233, 12);
+    
+}
+.navh1{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.anchortag{
+    margin-right: 40px;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.homebg{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;    
+}
+.hometexth1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.hometextp{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.aboutbg{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgreen;    
+}
+.abouttexth1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.abouttextp{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.contactbg{
+    height: 100vh;
+    width: 100%;
+    background-color: lightskyblue;    
+}
+.contacttexth1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.contacttextp{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.servicesbg{
+    height: 100vh;
+    width: 100%;
+    background-color: lightcyan;    
+}
+.servicestexth1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.servicestextp{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@media (min-width:200px) and (max-width:500px) {
+    .anchortag{
+        margin-right: 10px;
+        gap: 7px;
+    }
+    .navh1{
+        font-size: larger;
+    }
+    
+}
